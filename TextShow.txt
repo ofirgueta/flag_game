@@ -1,0 +1,8 @@
+#לשים בSCREEN
+def draw_message(text, location):
+    WHITE = (200, 200, 200)
+    font = pygame.font.SysFont(None, 24)
+    img = font.render(text, True,WHITE)
+    screen.blit(img, location)
+    pygame.display.update()
+    pygame.time.delay(2 * 1000)
